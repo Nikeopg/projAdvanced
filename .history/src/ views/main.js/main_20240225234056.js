@@ -1,6 +1,5 @@
 import { AbstractView } from "../../common/view.js";
 import onChange from "on-change";
-import { Header } from "../../components/header/header.js";
 
 export class MainView extends AbstractView {
     state = {
@@ -27,11 +26,10 @@ export class MainView extends AbstractView {
         const main = document.createElement("div");
         this.app.innerHTML = "";
         this.app.append(main);
-        this.renderHeader();
+        this.appState.favorites.push("ddD");
     }
 
-    renderHeader() {
-        const header = new Header(this.appState).render();
-        this.app.prepend(header);
+    renderHead() {
+        const header = new Header();
     }
 }

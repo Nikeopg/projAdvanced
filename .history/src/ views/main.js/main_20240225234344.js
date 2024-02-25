@@ -28,6 +28,7 @@ export class MainView extends AbstractView {
         this.app.innerHTML = "";
         this.app.append(main);
         this.renderHeader();
+        this.appState.favorites.push("ddD");
     }
 
     renderHeader() {
