@@ -1,0 +1,27 @@
+{
+    "name": "projadvanced",
+    "version": "1.0.0",
+    "description": "My proj from couse jsAdvanced",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c --watch",
+        "test": "test "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nikeopg/projAdvanced.git"
+    },
+    "author": "Nikita Vasilenkov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Nikeopg/projAdvanced/issues"
+    },
+    "homepage": "https://github.com/Nikeopg/projAdvanced#readme",
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "eslint": "^8.57.0",
+        "rollup": "^4.12.0",
+        "rollup-plugin-import-css": "^3.5.0"
+    }
+}

@@ -1,0 +1,1 @@
+export MainView extends View
